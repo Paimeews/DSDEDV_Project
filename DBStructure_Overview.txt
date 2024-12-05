@@ -1,0 +1,297 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": str,
+                "@type": str,
+                "@stage": str
+            },
+            "ait:date-delivered": {
+                "@day": str,
+                "@timestamp": str,
+                "@year": str,
+                "@month": str
+            },
+            "ait:date-sort": {
+                "@day": str,
+                "@year": str,
+                "@month": str
+            }
+        },
+        "bibrecord": {
+            "head": {
+                "author-group": [
+                    {
+                        "affiliation": {
+                            "country": str,
+                            "@afid": str,
+                            "@country": str,
+                            "city": str,
+                            "organization": [
+                                {"$": str}, ...
+                            ],
+                            "affiliation-id": {
+                                "@afid": str,
+                                "@dptid": str
+                            },
+                            "@dptid": str
+                        },
+                        "author": [{
+                            "ce:given-name": str,
+                            "preferred-name": {
+                                "ce:given-name": str,
+                                "ce:initials": str,
+                                "ce:surname": str,
+                                "ce:indexed-name": str
+                            },
+                            "@seq": str,
+                            "ce:initials": str,
+                            "@_fa": str,
+                            "@type": str,
+                            "ce:degrees": str,
+                            "ce:surname": str,
+                            "@auid": str,
+                            "ce:indexed-name": "str,
+                        }]
+                    }, ...
+                ],
+                "citation-title": str,
+                "abstracts": str,
+                "correspondence": {
+                    "affiliation": {
+                        "country": str,
+                        "@country": str,
+                        "city": str,
+                        "organization": [
+                            {"$": str}, ...
+                        ]
+                    },
+                    "person": {
+                        "ce:given-name": str,
+                        "ce:initials": str,
+                        "ce:degrees": str,
+                        "ce:surname": str,
+                        "ce:indexed-name": str
+                    }
+                },
+                "citation-info": {
+                    "citation-type": {
+                        "@code": str
+                    },
+                    "citation-language": {
+                        "@language": str,
+                        "@xml:lang": str
+                    }
+                },
+                "source": {
+                    "sourcetitle-abbrev": str,
+                    "website": {
+                        "ce:e-address": {
+                            "$": str,
+                            "@type": str
+                    }},
+                    "@country": str,
+                    "translated-sourcetitle": {"@xml:lang": str},
+                    "volisspag": {"pagerange": {
+                        "@first": str,
+                        "@last": str
+                    }},
+                    "@type": str,
+                    "publicationyear": {"@first": str},
+                    "isbn": [
+                        {
+                            "@level": str,
+                            "$": str,
+                            "@type": str,
+                            "@length": str
+                        }, ...
+                    ],
+                    "publisher": {"publishername": str},
+                    "sourcetitle": str,
+                    "@srcid": str,
+                    "publicationdate": {
+                        "month": str,
+                        "year": str,
+                        "date-text": {
+                            "@xfab-added": str,
+                            "$": str,
+                        },
+                        "day": str
+                    }
+                },
+                "enhancement": {
+                    "classificationgroup": {
+                        "classifications": [
+                            {
+                                "@type": str,
+                                "classification": str
+                            }, ...
+
+                ]}}
+            },
+            "item-info": {
+                "copyright": {
+                    "$": str,
+                    "@type": str,
+                },
+                "dbcollection": [
+                    {"$": str}, ...
+                ],
+                "history": {
+                    "date-created": {
+                        "@day": str,
+                        "@timestamp": str,
+                        "@year": str,
+                        "@month": str
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": str,
+                            "@idtype": str,
+                        }, ...
+                    ],
+                    "ce:doi": str
+                }
+            },
+            "tail": {
+                "bibliography": {
+                    "@refcount": str,
+                    "reference": [
+                        {
+                            "ref-fulltext": str,
+                            "@id": str,
+                            "ref-info": {
+                                "ref-publicationyear": {"@first": str,},
+                                "ref-title": {
+                                    "ref-titletext": str,
+                                },
+                                "refd-itemidlist": {
+                                    "itemid": {
+                                        "$": str,
+                                        "@idtype": str
+                                }},
+                                "ref-volisspag": {
+                                    "voliss": {"@volume": str,},
+                                    "pagerange": {
+                                        "@first": str,
+                                        "@last": str,
+                                    }
+                                },
+                                "ref-authors": {
+                                    "author": [{
+                                        "@seq": str,
+                                        "ce:initials": str,
+                                        "@_fa": str,
+                                        "ce:surname": str,
+                                        "ce:indexed-name": str
+                                }]},
+                                "ref-sourcetitle": str,
+                            }
+                        }, ...
+                ]
+            }}
+        }
+    },
+    "affiliation": [
+        {
+            "affiliation-city": str,
+            "@id": str,
+            "affilname": str,
+            "@href": str,
+            "affiliation-country": str
+        }, ...
+    ],
+    "coredata": {
+        "srctype": str,
+        "eid": str,
+        "prism:coverDate": str,
+        "prism:aggregationType": str,
+        "prism:url": str,
+        "subtypeDescription": str,
+        "dc:creator": {
+            "author": [{
+                "ce:given-name": str,
+                "preferred-name": {
+                    "ce:given-name": str,
+                    "ce:initials": str,
+                    "ce:surname": str,
+                    "ce:indexed-name": str,
+            },
+            "@seq": str,
+            "ce:initials": str,
+            "@_fa": str,
+            "affiliation": [
+                {
+                    "@id": str,
+                    "@href": str
+                }, ...
+            ],
+            "ce:degrees": str,
+            "ce:surname": str,
+            "@auid": str,
+            "author-url": str,
+            "ce:indexed-name": str
+        }]},
+        "link": [
+            {
+                "@_fa": str,
+                "@rel": str,
+                "@href": str
+            }, ...
+        ],
+        "prism:isbn": [
+            {"$": str}, ...
+        ],
+        "prism:publicationName": str,
+        "source-id": str,
+        "citedby-count": str,
+        "subtype": str,
+        "prism:pageRange": str,
+        "dc:title": str,
+        "prism:endingPage": str,
+        "openaccess": str,
+        "openaccessFlag": str,
+        "prism:doi": str,
+        "prism:startingPage": str,
+        "dc:identifier": str,
+        "dc:publisher": str,
+    },
+    "idxterms": str,
+    "language": {
+        "@xml:lang": str"},
+    "authkeywords": str,
+    "subject-areas": {
+        "subject-area": [{
+            "@_fa": str,
+            "$": str,
+            "@code": str,
+            "@abbrev": str
+    }]},
+    "authors": {
+        "author": [
+            {
+                "ce:given-name": str,
+                "preferred-name": {
+                    "ce:given-name": str,
+                    "ce:initials": str,
+                    "ce:surname": str,
+                    "ce:indexed-name": str
+                },
+                "@seq": str,
+                "ce:initials": str,
+                "@_fa": str,
+                "affiliation": [
+                    {
+                        "@id": str,
+                        "@href": "str
+                    }, ...
+                ],
+                "ce:degrees": str,
+                "ce:surname": str,
+                "@auid": str,
+                "author-url": str,
+                "ce:indexed-name": str
+            }, ...
+    ]}
+}}

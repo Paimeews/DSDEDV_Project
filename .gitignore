@@ -1,0 +1,31 @@
+.venv
+
+# ignore database
+2018/*
+2019/*
+2020/*
+2021/*
+2022/*
+2023/*
+
+# ignore computed data
+Classifying/2018/*
+Classifying/2019/*
+Classifying/2020/*
+Classifying/2021/*
+Classifying/2022/*
+Classifying/2023/*
+Extracting_part/Author_country_city/2018/*
+Extracting_part/Author_country_city/2019/*
+Extracting_part/Author_country_city/2020/*
+Extracting_part/Author_country_city/2021/*
+Extracting_part/Author_country_city/2022/*
+Extracting_part/Author_country_city/2023/*
+Extracting_part/Author_country_city/Unique_country_city/global_unique_country_cities.json
+Extracting_part/Author_organization/2018/*
+Extracting_part/Author_organization/2019/*
+Extracting_part/Author_organization/2020/*
+Extracting_part/Author_organization/2021/*
+Extracting_part/Author_organization/2022/*
+Extracting_part/Author_organization/2023/*
+Extracting_part/Author_organization/Unique_organization/global_unique_organizations.json
